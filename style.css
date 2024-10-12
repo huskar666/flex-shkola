@@ -148,3 +148,26 @@ header p {
     margin: 0 auto;
     line-height: 1.8;
 }
+.flexbox-code {
+    padding: 50px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.flexbox-code .code-example {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.flexbox-code .code-example img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.flexbox-code .code-example img:hover {
+    transform: scale(1.1);
+}
